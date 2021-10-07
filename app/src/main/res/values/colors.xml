@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2021 ~ https://github.com/braver-tool ~All rights reserved
+  -->
+
+<resources>
+    <color name="purple_200">#37383A</color>
+    <color name="purple_500">#77797E</color>
+    <color name="purple_700">#4B4D53</color>
+    <color name="teal_200">#333740</color>
+    <color name="teal_700">#5B6371</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="app_bg_color">#343B45</color>
+    <color name="app_primary_dark">#FFBA41</color>
+    <color name="app_primary_light">#E4DA93</color>
+
+
+    <color name="color_walking">#E4DA93</color>
+    <color name="color_running">#EEDC5B</color>
+    <color name="color_cycling">#EBCF0F</color>
+    <color name="color_hiking">#CDB928</color>
+    <color name="color_tennis">#9E9043</color>
+    <color name="color_hockey">#B59E04</color>
+    <color name="color_yoga">#AE9A0F</color>
+    <color name="color_fishing">#C5B744</color>
+    <color name="color_dancing">#FAE552</color>
+    <color name="color_skating">#C8A540</color>
+</resources>

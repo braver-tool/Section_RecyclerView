@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2021 ~ https://github.com/braver-tool ~All rights reserved
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.section.recyclerview.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/recyclerHeaderLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/app_bg_color"
+        android:paddingStart="@dimen/_5sdp"
+        android:paddingTop="@dimen/_10sdp"
+        android:paddingEnd="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_10sdp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:fontFamily="@font/iowan_old_st_bt_bold_italic"
+            android:text="@string/app_launch_title"
+            android:textColor="@color/app_primary_dark"
+            android:textSize="@dimen/_16sdp" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/sortByImageView"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:contentDescription="@string/image_desc"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_sort_by"
+            android:theme="@style/RippleEffectTheme" />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/activityRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recyclerHeaderLayout"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:scrollbars="none" />
+
+    <com.section.recyclerview.GitHubLogoView
+        android:id="@+id/gitHubLogoImageView"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:contentDescription="@string/image_desc"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:theme="@style/RippleEffectTheme" />
+</RelativeLayout>

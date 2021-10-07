@@ -1,0 +1,9 @@
+<!--
+  ~ Copyright 2021 ~ https://github.com/braver-tool ~All rights reserved
+  -->
+
+<resources>
+    <string name="app_name">Section RecyclerView</string>
+    <string name="image_desc">images</string>
+    <string name="app_launch_title">Section Recyclerview</string>
+</resources>

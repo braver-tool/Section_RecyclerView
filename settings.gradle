@@ -1,0 +1,14 @@
+/*
+ * Copyright 2021 ~ https://github.com/braver-tool ~All rights reserved
+ */
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "SectionRecyclerView"
+include ':appKotlin'
+include ':app'
