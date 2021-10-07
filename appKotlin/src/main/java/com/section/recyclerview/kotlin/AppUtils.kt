@@ -16,7 +16,7 @@ import java.util.*
 object AppUtils {
     val date_format: SimpleDateFormat = SimpleDateFormat("yyyy-MM-dd hh:mm a", Locale.getDefault())
     val date_format_1: SimpleDateFormat = SimpleDateFormat("MMM dd, yyyy", Locale.getDefault())
-    const val GITHUB_URL: String = "https://github.com/braver-tool?tab=repositories"
+    const val GITHUB_URL: String = "https://github.com/braver-tool/SectionRecyclerView/blob/main/appKotlin/src/main/java/com/section/recyclerview/kotlin/MainActivity.kt"
     private val activityNameList: Array<String?> = arrayOf("Walking", "Running", "Cycling", "Hiking",
             "Tennis", "Hockey", "Yoga", "Fishing", "Dancing", "Skating")
 

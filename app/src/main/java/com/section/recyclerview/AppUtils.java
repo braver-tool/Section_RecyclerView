@@ -22,7 +22,7 @@ public class AppUtils {
 
     public static final SimpleDateFormat date_format = new SimpleDateFormat("yyyy-MM-dd hh:mm a", Locale.getDefault());
     public static final SimpleDateFormat date_format_1 = new SimpleDateFormat("MMM dd, yyyy", Locale.getDefault());
-    public static final String GITHUB_URL = "https://github.com/braver-tool?tab=repositories";
+    public static final String GITHUB_URL = "https://github.com/braver-tool/SectionRecyclerView/blob/main/app/src/main/java/com/section/recyclerview/MainActivity.java";
     private static final String[] activityNameList = {"Walking", "Running", "Cycling", "Hiking",
             "Tennis", "Hockey", "Yoga", "Fishing", "Dancing", "Skating"};
 
