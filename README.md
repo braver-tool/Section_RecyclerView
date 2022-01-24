@@ -8,6 +8,6 @@ Implementation of RecyclerView with headers and items is too easy, which allows 
 * It is so easy to handle UI changes for headers,etc,.
 * Here, there is no third-party library is used, meanwhile its working with native source.
 
-This code is compatible for both java and kotlin users.
+This code is compatible with kotlin.
 
 You can find demo project code [here](https://github.com/braver-tool/SectionRecyclerView)
